@@ -1,0 +1,4 @@
+channel,campaign,ad_group,creative,destination_url,utm_source,utm_medium,utm_campaign,utm_content,final_url
+paid_search,feb_specials,ioniq5,search_rsa_1,https://www.clarkhyundai.com/specials.htm,google,cpc,feb_specials,search_rsa_1,https://www.clarkhyundai.com/specials.htm?utm_source=google&utm_medium=cpc&utm_campaign=feb_specials&utm_content=search_rsa_1
+paid_social,feb_specials,lease,meta_video_1,https://www.clarkhyundai.com/specials.htm,facebook,paid_social,feb_specials,meta_video_1,https://www.clarkhyundai.com/specials.htm?utm_source=facebook&utm_medium=paid_social&utm_campaign=feb_specials&utm_content=meta_video_1
+broadcast_tv,feb_specials,brand,tv_spot_30,https://www.clarkhyundai.com/specials.htm,tv,broadcast,feb_specials,tv_spot_30,https://www.clarkhyundai.com/specials.htm?utm_source=tv&utm_medium=broadcast&utm_campaign=feb_specials&utm_content=tv_spot_30

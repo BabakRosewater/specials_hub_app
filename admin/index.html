@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Specials Editor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div class="max-w-6xl mx-auto p-6">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <h1 class="text-2xl font-bold">Specials Editor</h1>
+        <p class="text-sm text-slate-600">Edit draft → preview → publish to production.</p>
+      </div>
+      <div class="flex gap-2 flex-wrap justify-end">
+        <button id="btnLoadProd" class="px-3 py-2 rounded bg-white border">Load Prod</button>
+        <button id="btnLoadDraft" class="px-3 py-2 rounded bg-white border">Load Draft</button>
+        <button id="btnSaveDraft" class="px-3 py-2 rounded bg-blue-600 text-white">Save Draft</button>
+        <button id="btnPublish" class="px-3 py-2 rounded bg-emerald-600 text-white">Publish</button>
+      </div>
+    </div>
+
+    <div id="status" class="mt-4 text-sm"></div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+      <div class="bg-white border rounded p-4">
+        <div class="flex items-center justify-between">
+          <h2 class="font-semibold">Draft JSON</h2>
+          <button id="btnValidate" class="px-3 py-1.5 rounded bg-slate-900 text-white text-sm">Validate</button>
+        </div>
+        <textarea id="editor" class="mt-3 w-full h-[520px] font-mono text-sm p-3 border rounded bg-slate-50"></textarea>
+      </div>
+
+      <div class="bg-white border rounded p-4">
+        <div class="flex items-center justify-between">
+          <h2 class="font-semibold">Preview (Draft)</h2>
+          <button id="btnOpenPreview" class="px-3 py-1.5 rounded bg-white border text-sm">Open in new tab</button>
+        </div>
+        <iframe id="preview" class="mt-3 w-full h-[520px] border rounded" src="/specials-preview.html?env=draft"></iframe>
+        <p class="text-xs text-slate-500 mt-2">
+          Preview uses <code>/api/specials?env=draft</code> as its data source.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

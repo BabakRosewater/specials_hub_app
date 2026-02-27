@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Specials Hub | Offers Tool</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-900 min-h-screen">
+  <div class="max-w-7xl mx-auto px-4 py-8">
+    <header class="mb-6">
+      <h1 class="text-3xl font-black text-[#002c5f]">Specials Offers Tool</h1>
+      <p class="text-slate-600 mt-2">Edit campaign offer data from one place, validate, and download a deployment-ready <code>specials.json</code>.</p>
+    </header>
+
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <aside class="lg:col-span-1 bg-white rounded-2xl border border-slate-200 p-5 shadow-sm h-fit">
+        <h2 class="text-lg font-bold mb-4">Actions</h2>
+        <div class="space-y-3">
+          <button id="btnLoadCurrent" class="w-full bg-[#002c5f] text-white py-2.5 rounded-xl font-bold">Load current data/specials.json</button>
+          <button id="btnValidate" class="w-full bg-emerald-600 text-white py-2.5 rounded-xl font-bold">Validate JSON</button>
+          <button id="btnPretty" class="w-full bg-slate-700 text-white py-2.5 rounded-xl font-bold">Auto-format JSON</button>
+          <button id="btnDownload" class="w-full bg-blue-600 text-white py-2.5 rounded-xl font-bold">Download specials.json</button>
+        </div>
+
+        <div class="mt-6">
+          <label class="block text-sm font-bold mb-2">Import JSON file</label>
+          <input id="fileInput" type="file" accept="application/json" class="block w-full text-sm" />
+        </div>
+
+        <div class="mt-6 p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600">
+          <p class="font-bold mb-2">Tip</p>
+          <p>After editing, run <code>Validate JSON</code>, then <code>Download specials.json</code> and hand that file to your implementation team.</p>
+        </div>
+      </aside>
+
+      <main class="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-5 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-lg font-bold">Editor</h2>
+          <span id="statusBadge" class="text-xs font-bold px-3 py-1 rounded-full bg-slate-200 text-slate-700">Idle</span>
+        </div>
+
+        <div id="summary" class="mb-4 hidden p-3 rounded-xl bg-blue-50 border border-blue-100 text-sm"></div>
+
+        <textarea id="jsonEditor" class="w-full min-h-[60vh] rounded-xl border border-slate-300 p-4 font-mono text-xs leading-relaxed" spellcheck="false"></textarea>
+
+        <div id="messages" class="mt-4 space-y-2"></div>
+      </main>
+    </section>
+  </div>
+
+  <script src="offers-tool.js"></script>
+</body>
+</html>
