@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "badge": "Sales, Lease & Service Event",
+    "titleTop": "THE CLARK HYUNDAI",
+    "titleAccent": "SPECIALS HUB",
+    "subtitle": "Choose your path below to explore our best current offers. From zero percent financing to complete service discounts, your savings start here."
+  },
+
+  "navCards": [
+    {
+      "href": "#finance-offers",
+      "iconClass": "fas fa-percentage",
+      "iconColor": "text-yellow-400",
+      "title": "0% APR Financing",
+      "desc": "Available on select 2026 models, plus defer your first payment for 90 days.",
+      "cta": "View 0% Offers",
+      "ctaColor": "text-yellow-400",
+      "hoverBorder": "hover:border-yellow-400/50"
+    },
+    {
+      "href": "#lease-offers-2026",
+      "iconClass": "fas fa-calendar-star",
+      "iconColor": "text-blue-400",
+      "title": "2026 Lease Offers",
+      "desc": "Be the first to drive our latest lineup. Low monthly payments from $266/mo.",
+      "cta": "View 2026 Leases",
+      "ctaColor": "text-blue-300",
+      "hoverBorder": "hover:border-blue-400/50"
+    },
+    {
+      "href": "#lease-offers-2025",
+      "iconClass": "fas fa-tags",
+      "iconColor": "text-blue-400",
+      "title": "2025 Clearout",
+      "desc": "Aggressive discounts on final 2025 inventory. Save up to $5,550 on purchases & leases.",
+      "cta": "View 2025 Deals",
+      "ctaColor": "text-blue-300",
+      "hoverBorder": "hover:border-blue-400/50"
+    },
+    {
+      "href": "#service-offers",
+      "iconClass": "fas fa-wrench",
+      "iconColor": "text-blue-400",
+      "title": "Service Specials",
+      "desc": "Up to 20% off interval maintenance, Buy 3 Get 1 $1 Tires, and complimentary checks.",
+      "cta": "View Coupons",
+      "ctaColor": "text-blue-300",
+      "hoverBorder": "hover:border-blue-400/50"
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "finance-offers",
+      "type": "finance",
+      "noPrint": true,
+      "bg": "bg-gray-100",
+      "kicker": { "text": "Limited Time", "class": "bg-yellow-200 text-yellow-800" },
+      "title": "Unbeatable 0% APR Financing",
+      "subtitle": "Finance your dream 2026 Hyundai with rates as low as 0% APR, plus take advantage of zero payments for 90 days on select models.",
+      "gridClass": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "cards": [
+        {
+          "topBorder": "border-green-500",
+          "tag": { "text": "Hybrid Model", "class": "text-green-600" },
+          "title": "2026 Santa Fe Hybrid AWD",
+          "rate": { "apr": "0%", "term": "For Up To 60 Months" },
+          "bullets": [
+            { "icon": "fas fa-check-circle text-green-500", "title": "Up to $4,000 Total Savings", "note": "With HMF Dealer Choice" },
+            { "icon": "fas fa-calendar-check text-purple-500", "title": "0 Payments for 90 Days", "note": "Defer your first payment" }
+          ],
+          "cta": { "label": "Shop Inventory", "href": "https://www.clarkhyundai.com/new-inventory/index.htm?model=Santa%20Fe%20Hybrid" }
+        }
+      ],
+      "ctaCard": {
+        "title": "Don't see your favorite model?",
+        "desc": "We have more special finance offers and discounts available across our entire lineup.",
+        "icon": "fas fa-search-dollar",
+        "href": "https://www.clarkhyundai.com/new-inventory/index.htm",
+        "button": "Shop All Inventory"
+      },
+      "disclaimer": "PURCHASE OFFERS: 0% APR financing available on select 2026 Hyundai models for well-qualified buyers through Hyundai Motor Finance (HMF). Not all buyers will qualify. Down payment may be required. 90-day deferred first payment available on select models; interest accrues from date of contract. Total Savings includes HMF Dealer Choice cash."
+    },
+
+    {
+      "id": "lease-offers-2026",
+      "type": "leaseGrid",
+      "noPrint": true,
+      "kicker": { "text": "Just Arrived", "class": "bg-green-100 text-green-800" },
+      "title": "New 2026 Lease Offers",
+      "subtitle": "Be the first to drive our latest 2026 lineup. All leases based on 36-month terms with $3,900 due at signing.",
+      "gridClass": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
+      "cards": [
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/c72ff373-8fff-4194-95f6-d6c6df57b520.jpeg",
+          "imgAlt": "2026 Hyundai IONIQ 5",
+          "badges": [
+            { "text": "Stock: H7437", "class": "bg-blue-600 text-white" },
+            { "text": "EV", "class": "bg-green-500 text-white" }
+          ],
+          "title": "2026 Hyundai IONIQ 5 AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$45,575" },
+            { "label": "Selling Price", "value": "$45,575" },
+            { "label": "Lease Cash", "value": "-$7,500", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "380", "cents": "51" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-IONIQ-5-9569299cac18590302015c9e6e9c2e93.htm"
+        }
+      ],
+      "disclaimer": "LEASE OFFERS: Excludes tax, title, & license. Closed end lease through Hyundai Motor Finance, subject to credit approval. Mileage overage $0.20/mile over 10,000 miles/year. Payments do not include doc fee or license. $3,900 due at signing + drive off fee."
+    },
+
+    {
+      "id": "service-offers",
+      "type": "serviceCoupons",
+      "noPrint": false,
+      "title": "February Service Specials",
+      "subtitleTop": "Winter is ending—is your Hyundai ready for Spring?",
+      "subtitle": "Take advantage of our exclusive offers. Show these coupons on your phone or print them out.",
+      "buttons": [
+        { "label": "Schedule Service", "href": "https://www.clarkhyundai.com/service/index.htm", "class": "bg-[#002c5f] hover:bg-blue-800 text-white" },
+        { "label": "Print Coupons", "action": "print", "class": "bg-gray-200 hover:bg-gray-300 text-gray-800 border border-gray-300", "icon": "fas fa-print" }
+      ],
+      "couponsGridClass": "grid grid-cols-1 md:grid-cols-2 gap-8 mb-20 max-w-5xl mx-auto",
+      "coupons": [
+        {
+          "kicker": "Tire Center Special",
+          "title": "Buy 3 Tires, Get the 4th for $1",
+          "desc": "Upgrade your traction for safer late-winter driving and upcoming spring travels.",
+          "finePrint": "*Eligible OEM/OEA/WIN tires only. Dealer installation required. Excludes taxes.",
+          "code": "FEB-TIRE-01",
+          "expires": "02/28/26"
+        }
+      ],
+      "printFooter": "Printed from the Clark Hyundai Specials Page. 2955 US 93 South, Kalispell, MT 59901 | Service: 406-309-7003",
+      "disclaimer": "SERVICE OFFERS: Valid February 1, 2026 – February 28, 2026. Must present coupon at time of write-up. Some offers may not be combined. See dealer for full details."
+    }
+  ],
+
+  "footer": {
+    "masterDisclaimer": [
+      "FINANCE OFFERS: 0% APR financing available on select models for well-qualified buyers through Hyundai Motor Finance (HMF). Not all buyers will qualify.",
+      "LEASE OFFERS: Excludes tax, title, & license. Closed end lease through HMF, subject to credit approval. Mileage overage applies.",
+      "PURCHASE OFFERS: Total discount varies by vehicle and includes combinations of Dealer Discount, HMF incentives, Retail Bonus Cash, and Inventory Coupons.",
+      "SERVICE OFFERS: Valid dates vary by offer. Must present coupon at write-up. Some offers may not be combined."
+    ],
+    "dealer": {
+      "name": "Clark Hyundai",
+      "address": "2955 US 93 South, Kalispell, MT 59901",
+      "phones": [
+        { "label": "Sales", "tel": "4067555274", "display": "406-755-5274" },
+        { "label": "Service", "tel": "4063097003", "display": "406-309-7003" },
+        { "label": "Parts", "tel": "4063097004", "display": "406-309-7004" }
+      ],
+      "serviceHours": "Mon-Fri 7:30 AM - 6:00 PM",
+      "copyright": "© 2026 Clark Hyundai. All rights reserved."
+    }
+  }
+}
