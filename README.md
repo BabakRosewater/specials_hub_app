@@ -294,3 +294,38 @@ Fix: compare object shape against existing working cards in `data/specials.json`
 
 This repo is intentionally static and lightweight for fast dealer implementation.
 If needed later, you can add an authenticated admin UI that writes `data/specials.json` and exports campaign packs automatically.
+
+---
+
+## MVP Admin Workflow (Cloudflare Pages + R2)
+
+This repo now includes an MVP admin path for draft/prod publishing.
+
+### Admin UI
+- `/admin/index.html` - JSON draft editor
+- `/admin/admin.js` - load/save/validate/publish behavior
+- `/specials-preview.html?env=draft` - renders draft data in preview
+
+### API Functions (`/functions/api`)
+- `GET /api/specials?env=prod|draft` - fetch prod/draft JSON
+- `PUT /api/specials?env=draft` - validate + save draft
+- `POST /api/publish` - archive current prod and promote draft
+- `GET /api/versions` - list archived versions
+- `POST /api/rollback` - restore selected version to prod
+
+### Cloudflare binding requirement
+In Pages settings, bind R2 bucket as:
+- Binding: `SPECIALS_BUCKET`
+
+### R2 keys used
+- `specials/prod.json`
+- `specials/draft.json`
+- `specials/versions/<timestamp>.json`
+- `specials/_draft_meta.json`
+- `specials/_publish_meta.json`
+
+### Security recommendation
+Protect these paths with Cloudflare Access:
+- `/admin/*`
+- `/api/*`
+

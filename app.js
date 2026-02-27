@@ -12,7 +12,23 @@
 
   const money = (v) => esc(v);
 
+  function getEnvFromQuery() {
+    const env = new URLSearchParams(window.location.search).get("env");
+    if (!env) return "prod";
+    return env.toLowerCase() === "draft" ? "draft" : "prod";
+  }
+
   async function loadData() {
+    const env = getEnvFromQuery();
+    const apiUrl = `/api/specials?env=${env}`;
+
+    try {
+      const apiRes = await fetch(apiUrl, { cache: "no-store" });
+      if (apiRes.ok) return await apiRes.json();
+    } catch (_) {
+      // fallback for local static preview without functions runtime
+    }
+
     const res = await fetch("data/specials.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load specials.json (${res.status})`);
     return await res.json();
