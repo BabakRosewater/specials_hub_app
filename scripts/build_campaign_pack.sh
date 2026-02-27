@@ -7,6 +7,8 @@ mkdir -p "$OUT_DIR/data" "$OUT_DIR/assets"
 
 cp index.html "$OUT_DIR/specials.htm"
 cp app.js "$OUT_DIR/app.js"
+cp offers-tool.html "$OUT_DIR/offers-tool.html"
+cp offers-tool.js "$OUT_DIR/offers-tool.js"
 cp data/specials.json "$OUT_DIR/data/specials.json"
 
 # Copy templates as starting point for campaign ops

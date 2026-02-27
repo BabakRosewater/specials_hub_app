@@ -15,12 +15,13 @@ This repository is designed to support:
 2. [How the app works](#how-the-app-works)
 3. [Repository structure](#repository-structure)
 4. [File-by-file documentation](#file-by-file-documentation)
-5. [Run locally](#run-locally)
-6. [Monthly/weekly update workflow](#monthlyweekly-update-workflow)
-7. [Build a campaign handoff package](#build-a-campaign-handoff-package)
-8. [Data model overview (`data/specials.json`)](#data-model-overview-dataspecialsjson)
-9. [Operational governance recommendations](#operational-governance-recommendations)
-10. [Troubleshooting](#troubleshooting)
+5. [Offers Tool (front-end campaign editor)](#offers-tool-front-end-campaign-editor)
+6. [Run locally](#run-locally)
+7. [Monthly/weekly update workflow](#monthlyweekly-update-workflow)
+8. [Build a campaign handoff package](#build-a-campaign-handoff-package)
+9. [Data model overview (`data/specials.json`)](#data-model-overview-dataspecialsjson)
+10. [Operational governance recommendations](#operational-governance-recommendations)
+11. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -56,6 +57,8 @@ This allows your team to:
 ├── docs/
 │   └── CAMPAIGN_PACK_SPEC.md
 ├── index.html
+├── offers-tool.html
+├── offers-tool.js
 ├── scripts/
 │   └── build_campaign_pack.sh
 ├── templates/
@@ -80,6 +83,19 @@ You should rarely need to edit this file unless changing base layout/styling beh
 
 ### `app.js`
 Client renderer and runtime logic.
+
+### `offers-tool.html`
+Browser-based internal editor UI for campaign operations.
+
+Provides:
+- load current `data/specials.json`
+- import external JSON
+- validate/format JSON
+- download deployment-ready `specials.json`
+
+### `offers-tool.js`
+Client logic for the Offers Tool actions and validation flow.
+
 
 Key responsibilities:
 - Fetches JSON data
@@ -125,6 +141,8 @@ Build script that creates a ready-to-share handoff package under `dist/campaign-
 Outputs:
 - `specials.htm` (copied from `index.html`)
 - `app.js`
+- `offers-tool.html`
+- `offers-tool.js`
 - `data/specials.json`
 - starter campaign ops files copied from `templates/`
 
@@ -142,6 +160,23 @@ Template for channel-level URL governance and attribution:
 
 ### `templates/publish-checklist.example.md`
 Template checklist for weekly/event publishing QA.
+
+---
+
+## Offers Tool (front-end campaign editor)
+
+Open the editor in browser:
+
+```txt
+http://localhost:4173/offers-tool.html
+```
+
+Typical team workflow:
+1. Click **Load current data/specials.json**.
+2. Update JSON content directly in the editor.
+3. Click **Validate JSON** (must pass).
+4. Click **Download specials.json**.
+5. Hand the downloaded file to implementation team (or commit to repo).
 
 ---
 
