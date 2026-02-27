@@ -1,0 +1,19 @@
+{
+  "campaignId": "2026-02-specials",
+  "campaignName": "February Specials Event",
+  "store": "Clark Hyundai",
+  "startDate": "2026-02-03",
+  "endDate": "2026-03-02",
+  "owner": "Marketing Manager",
+  "backupOwner": "General Sales Manager",
+  "approvedBy": "Dealer Leadership",
+  "publishedAt": "2026-02-03T09:00:00Z",
+  "version": "v1.0.0",
+  "officialDestinations": {
+    "specialsPage": "https://www.clarkhyundai.com/specials.htm",
+    "modelPages": [
+      "https://www.clarkhyundai.com/new-inventory/index.htm?model=IONIQ%205",
+      "https://www.clarkhyundai.com/new-inventory/index.htm?model=Santa%20Fe"
+    ]
+  }
+}
