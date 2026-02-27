@@ -5,7 +5,6 @@
     "titleAccent": "SPECIALS HUB",
     "subtitle": "Choose your path below to explore our best current offers. From zero percent financing to complete service discounts, your savings start here."
   },
-
   "navCards": [
     {
       "href": "#finance-offers",
@@ -22,7 +21,7 @@
       "iconClass": "fas fa-calendar-star",
       "iconColor": "text-blue-400",
       "title": "2026 Lease Offers",
-      "desc": "Be the first to drive our latest lineup. Low monthly payments from $266/mo.",
+      "desc": "New model-year lease programs with $3,900 due at signing.",
       "cta": "View 2026 Leases",
       "ctaColor": "text-blue-300",
       "hoverBorder": "hover:border-blue-400/50"
@@ -31,24 +30,33 @@
       "href": "#lease-offers-2025",
       "iconClass": "fas fa-tags",
       "iconColor": "text-blue-400",
-      "title": "2025 Clearout",
-      "desc": "Aggressive discounts on final 2025 inventory. Save up to $5,550 on purchases & leases.",
-      "cta": "View 2025 Deals",
+      "title": "2025 Lease Clearout",
+      "desc": "Aggressive terms on remaining 2025 inventory while it lasts.",
+      "cta": "View 2025 Leases",
       "ctaColor": "text-blue-300",
       "hoverBorder": "hover:border-blue-400/50"
+    },
+    {
+      "href": "#purchase-offers",
+      "iconClass": "fas fa-car-side",
+      "iconColor": "text-emerald-400",
+      "title": "Purchase Specials",
+      "desc": "Stack dealer discount, bonus cash, and finance incentives.",
+      "cta": "View Purchase Deals",
+      "ctaColor": "text-emerald-300",
+      "hoverBorder": "hover:border-emerald-400/50"
     },
     {
       "href": "#service-offers",
       "iconClass": "fas fa-wrench",
       "iconColor": "text-blue-400",
       "title": "Service Specials",
-      "desc": "Up to 20% off interval maintenance, Buy 3 Get 1 $1 Tires, and complimentary checks.",
-      "cta": "View Coupons",
+      "desc": "8 coupons plus advisor info, FAQ, and customer testimonials.",
+      "cta": "View Service Offers",
       "ctaColor": "text-blue-300",
       "hoverBorder": "hover:border-blue-400/50"
     }
   ],
-
   "sections": [
     {
       "id": "finance-offers",
@@ -70,6 +78,50 @@
             { "icon": "fas fa-calendar-check text-purple-500", "title": "0 Payments for 90 Days", "note": "Defer your first payment" }
           ],
           "cta": { "label": "Shop Inventory", "href": "https://www.clarkhyundai.com/new-inventory/index.htm?model=Santa%20Fe%20Hybrid" }
+        },
+        {
+          "topBorder": "border-green-500",
+          "tag": { "text": "Hybrid Model", "class": "text-green-600" },
+          "title": "2026 Tucson Hybrid AWD",
+          "rate": { "apr": "0%", "term": "For Up To 60 Months" },
+          "bullets": [
+            { "icon": "fas fa-check-circle text-green-500", "title": "Up to $3,000 Total Savings", "note": "With HMF Dealer Choice" },
+            { "icon": "fas fa-calendar-check text-purple-500", "title": "0 Payments for 90 Days", "note": "Defer your first payment" }
+          ],
+          "cta": { "label": "Shop Inventory", "href": "https://www.clarkhyundai.com/new-inventory/index.htm?model=Tucson%20Hybrid" }
+        },
+        {
+          "topBorder": "border-blue-500",
+          "tag": { "text": "All-Electric (EV)", "class": "text-blue-600" },
+          "title": "2026 IONIQ 5 AWD",
+          "rate": { "apr": "0%", "term": "For Up To 72 Months" },
+          "bullets": [
+            { "icon": "fas fa-check-circle text-green-500", "title": "Up to $6,000 Total Savings", "note": "With HMF Dealer Choice" },
+            { "icon": "fas fa-tag text-orange-500", "title": "Extra $1,000 Off", "note": "Additional Finance Bonus" }
+          ],
+          "cta": { "label": "Shop Inventory", "href": "https://www.clarkhyundai.com/new-inventory/index.htm?model=IONIQ%205" }
+        },
+        {
+          "topBorder": "border-gray-400",
+          "tag": { "text": "Gas Model", "class": "text-gray-500" },
+          "title": "2026 Santa Fe AWD",
+          "rate": { "apr": "0%", "term": "For Up To 60 Months" },
+          "bullets": [
+            { "icon": "fas fa-check-circle text-green-500", "title": "Up to $3,500 Total Savings", "note": "With HMF Dealer Choice" },
+            { "icon": "fas fa-calendar-check text-purple-500", "title": "0 Payments for 90 Days", "note": "Defer your first payment" }
+          ],
+          "cta": { "label": "Shop Inventory", "href": "https://www.clarkhyundai.com/new-inventory/index.htm?model=Santa%20Fe" }
+        },
+        {
+          "topBorder": "border-gray-400",
+          "tag": { "text": "Gas Model", "class": "text-gray-500" },
+          "title": "2026 Tucson AWD",
+          "rate": { "apr": "0%", "term": "For Up To 60 Months" },
+          "bullets": [
+            { "icon": "fas fa-check-circle text-green-500", "title": "Up to $2,750 Total Savings", "note": "With HMF Dealer Choice" },
+            { "icon": "fas fa-calendar-check text-purple-500", "title": "0 Payments for 90 Days", "note": "Defer your first payment" }
+          ],
+          "cta": { "label": "Shop Inventory", "href": "https://www.clarkhyundai.com/new-inventory/index.htm?model=Tucson" }
         }
       ],
       "ctaCard": {
@@ -79,9 +131,8 @@
         "href": "https://www.clarkhyundai.com/new-inventory/index.htm",
         "button": "Shop All Inventory"
       },
-      "disclaimer": "PURCHASE OFFERS: 0% APR financing available on select 2026 Hyundai models for well-qualified buyers through Hyundai Motor Finance (HMF). Not all buyers will qualify. Down payment may be required. 90-day deferred first payment available on select models; interest accrues from date of contract. Total Savings includes HMF Dealer Choice cash."
+      "disclaimer": "PURCHASE OFFERS: 0% APR financing available on select 2026 Hyundai models (Santa Fe, Santa Fe Hybrid, Tucson, Tucson Hybrid, IONIQ 5) for well-qualified buyers through Hyundai Motor Finance (HMF). Not all buyers will qualify. Down payment may be required. 90-day deferred first payment available on select models; interest accrues from date of contract. Total Savings includes HMF Dealer Choice cash."
     },
-
     {
       "id": "lease-offers-2026",
       "type": "leaseGrid",
@@ -108,11 +159,338 @@
           ],
           "payment": { "dollars": "380", "cents": "51" },
           "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-IONIQ-5-9569299cac18590302015c9e6e9c2e93.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/77682dcb-40f2-484e-a060-76aafe1a8fe6.jpg",
+          "imgAlt": "2026 Hyundai Santa Fe Hybrid",
+          "badges": [
+            { "text": "Stock: H7271", "class": "bg-green-600 text-white" }
+          ],
+          "title": "2026 Hyundai Santa Fe Hybrid AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$40,730" },
+            { "label": "Selling Price", "value": "$39,475" },
+            { "label": "Lease Cash", "value": "-$250", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "398", "cents": "12" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Santa-Fe-Hybrid-8e571bb1ac1805fe4bf6e6e6ad5047fe.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/eea56186-c913-47ca-92c0-88d028c64451.jpg",
+          "imgAlt": "2026 Hyundai Tucson",
+          "badges": [
+            { "text": "Stock: H7369", "class": "bg-blue-600 text-white" }
+          ],
+          "title": "2026 Hyundai Tucson AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$43,335" },
+            { "label": "Selling Price", "value": "$41,340" },
+            { "label": "Lease Cash", "value": "N/A", "class": "text-gray-400 italic" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "384", "cents": "40" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Tucson-e1d337aaac181c7e43060b9983565117.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/06965c78-f43e-4f39-ab2d-3274382c14d7.jpeg",
+          "imgAlt": "2026 Hyundai Palisade",
+          "badges": [
+            { "text": "Stock: H7467", "class": "bg-blue-600 text-white" }
+          ],
+          "title": "2026 Hyundai Palisade AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$46,790" },
+            { "label": "Selling Price", "value": "$44,789" },
+            { "label": "Lease Cash", "value": "-$250", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "418", "cents": "51" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Palisade-f705188dac183a923e39147d10914ca9.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/5f903ea8-df12-44b1-a446-8075a9fdd2d6.jpg",
+          "imgAlt": "2026 Hyundai Palisade Hybrid",
+          "badges": [
+            { "text": "Stock: H7479", "class": "bg-green-600 text-white" }
+          ],
+          "title": "2026 Hyundai Palisade Hybrid AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$52,495" },
+            { "label": "Selling Price", "value": "$50,807" },
+            { "label": "Lease Cash", "value": "N/A", "class": "text-gray-400 italic" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "550", "cents": "88" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Palisade-Hybrid-2a51e551ac18048367edb5d24a648316.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/b06903e2-c0aa-40bb-88bf-252c3d259a73.jpeg",
+          "imgAlt": "2026 Hyundai Santa Cruz",
+          "badges": [
+            { "text": "Stock: H7448", "class": "bg-orange-600 text-white" }
+          ],
+          "title": "2026 Hyundai Santa Cruz AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$46,815" },
+            { "label": "Selling Price", "value": "$46,815" },
+            { "label": "Lease Cash", "value": "-$250", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "597", "cents": "21" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Santa-Cruz-a561864bac18162d55482e23d15103cb.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/58e828e2-d788-4006-a00c-fd53bcf656ab.jpg",
+          "imgAlt": "2026 Hyundai Kona",
+          "badges": [
+            { "text": "Stock: H7444", "class": "bg-blue-600 text-white" }
+          ],
+          "title": "2026 Hyundai Kona AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$36,975" },
+            { "label": "Selling Price", "value": "$35,533" },
+            { "label": "Lease Cash", "value": "-$500", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "346", "cents": "76" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Kona-95694077ac18579e85f72d30bfd3c2cb.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/1ba43c4c-a4b9-4e3e-9a11-8260c3321bb1.jpg",
+          "imgAlt": "2026 Hyundai Kona",
+          "badges": [
+            { "text": "Stock: H7354", "class": "bg-blue-600 text-white" }
+          ],
+          "title": "2026 Hyundai Kona AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$29,175" },
+            { "label": "Selling Price", "value": "$28,454" },
+            { "label": "Lease Cash", "value": "-$2,000", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "266", "cents": "81" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2026-Hyundai-Kona-c7ff656dac1825c50394eb00e5ae8b89.htm"
         }
       ],
-      "disclaimer": "LEASE OFFERS: Excludes tax, title, & license. Closed end lease through Hyundai Motor Finance, subject to credit approval. Mileage overage $0.20/mile over 10,000 miles/year. Payments do not include doc fee or license. $3,900 due at signing + drive off fee."
+      "infoCard": {
+        "className": "xl:col-auto",
+        "icon": "fas fa-sync-alt",
+        "title": "Why Lease a Hyundai?",
+        "desc": "Enjoy a brand new vehicle with maximum flexibility.",
+        "bullets": [
+          { "icon": "fas fa-arrow-down text-green-400", "title": "Lower Payments:", "note": "Less than traditional financing." },
+          { "icon": "fas fa-shield-alt text-green-400", "title": "Peace of Mind:", "note": "Covered by factory warranty." },
+          { "icon": "fas fa-car text-green-400", "title": "Always New:", "note": "Upgrade every few years." },
+          { "icon": "fas fa-microchip text-green-400", "title": "Latest Features:", "note": "Stay current with new safety & tech." },
+          { "icon": "fas fa-sync-alt text-green-400", "title": "End-of-Lease Flexibility:", "note": "Return, buy, or lease something new." },
+          { "icon": "fas fa-wallet text-green-400", "title": "Smaller Upfront Costs:", "note": "Often requires less money at signing." }
+        ],
+        "href": "https://www.clarkhyundai.com/financing/application.htm",
+        "button": "Apply For Lease"
+      },
+      "disclaimer": "LEASE OFFERS: Excludes tax, title, & license. The closed end lease offered through Hyundai Motor Finance and subject to credit approval. Well-qualified lessees only. At lease end, lessee responsible for excess wear and mileage at $0.20/mile over 10,000 miles per year. Lessee has option to purchase at lease-end price negotiated at signing. Photo is for illustration purposes only. Offer may not be combined with other special offers unless specified. Dealer price may vary. See participating Hyundai dealer for details and vehicle inventory availability. ALL LEASES 10k MILES/YEAR. $0.20 MILEAGE OVERAGE. PAYMENTS DO NOT INCLUDE DOC FEE OR LICENSE. $3,900 Due at Signing + DRIVE OFF FEE. Effective Tue Feb 03 2026 through Mon Mar 02 2026."
     },
-
+    {
+      "id": "lease-offers-2025",
+      "type": "leaseGrid",
+      "noPrint": true,
+      "bg": "bg-gray-100 border-t border-gray-200",
+      "title": "2025 Lease Clearout",
+      "subtitle": "Take advantage of aggressive lease programs on remaining 2025 inventory. All leases based on 36-month terms with $3,900 due at signing.",
+      "gridClass": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "cards": [
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/dac10ef6-20ba-44ed-9beb-c0d45004de00.jpg",
+          "imgAlt": "2025 Elantra",
+          "badges": [{ "text": "Stock: H7273", "class": "bg-blue-600 text-white" }],
+          "title": "2025 Hyundai Elantra",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$25,135" },
+            { "label": "Selling Price", "value": "$22,482" },
+            { "label": "Lease Rebate", "value": "-$1,500", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "156", "cents": "96" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Elantra-fa7ca94cac182cddb86dbea1632e1371.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/727d64ce-5a9c-4b0a-bb81-fa52b8e68a39.jpg",
+          "imgAlt": "2025 Elantra Hybrid",
+          "badges": [{ "text": "Stock: H7276", "class": "bg-green-600 text-white" }],
+          "title": "2025 Elantra Hybrid",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$27,305" },
+            { "label": "Selling Price", "value": "$24,721" },
+            { "label": "Lease Rebate", "value": "-$1,750", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "178", "cents": "22" },
+          "href": "https://www.clarkhyundai.com/new-inventory/index.htm?year=2025-2025&model=Elantra%20Hybrid"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/fefd886e-3677-4d88-bd93-4cbd2d249b3d.jpg",
+          "imgAlt": "2025 Sonata Hybrid",
+          "badges": [{ "text": "Stock: H7028", "class": "bg-blue-600 text-white" }],
+          "title": "2025 Sonata Hybrid",
+          "sub": "36 Mo / 12k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$33,180" },
+            { "label": "Selling Price", "value": "$30,380" },
+            { "label": "Lease Rebate", "value": "-$2,500", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "263", "cents": "38" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Sonata-Hybrid-03c8dc0bac184137139e77c381d1d2b6.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/6be939ec-3e80-44d3-b125-9cc809a1d3c1.jpg",
+          "imgAlt": "2025 Santa Cruz",
+          "badges": [{ "text": "Stock: H7190", "class": "bg-orange-600 text-white" }],
+          "title": "2025 Santa Cruz AWD",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$36,880" },
+            { "label": "Selling Price", "value": "$33,767" },
+            { "label": "Lease Rebate", "value": "-$1,250", "class": "text-green-600 font-bold" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "354", "cents": "87" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Santa-Cruz-3cab8ce7ac183bcc1c8b2a5866ad28f4.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/fc6ca090-f2dc-4e76-b931-47415ed82df8.jpg",
+          "imgAlt": "2025 Elantra N",
+          "badges": [{ "text": "Stock: H7375", "class": "bg-red-600 text-white" }],
+          "title": "2025 Elantra N",
+          "sub": "36 Mo / 10k Miles Per Year",
+          "lines": [
+            { "label": "MSRP", "value": "$36,260" },
+            { "label": "Selling Price", "value": "$34,132" },
+            { "label": "Lease Rebate", "value": "N/A", "class": "text-gray-400 italic" },
+            { "label": "Due at Signing", "value": "$3,900" }
+          ],
+          "payment": { "dollars": "423", "cents": "75" },
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Elantra-N-9659916fac1844804ec99d1dc577fd24.htm"
+        }
+      ],
+      "infoCard": {
+        "className": "lg:col-start-2 xl:col-auto",
+        "icon": "fas fa-sync-alt",
+        "title": "Why Lease a Hyundai?",
+        "desc": "Enjoy a brand new vehicle with maximum flexibility.",
+        "bullets": [
+          { "icon": "fas fa-arrow-down text-green-400", "title": "Lower Payments:", "note": "Less than traditional financing." },
+          { "icon": "fas fa-shield-alt text-green-400", "title": "Peace of Mind:", "note": "Covered by factory warranty." },
+          { "icon": "fas fa-car text-green-400", "title": "Always New:", "note": "Upgrade every few years." },
+          { "icon": "fas fa-microchip text-green-400", "title": "Latest Features:", "note": "Stay current with new safety & tech." },
+          { "icon": "fas fa-sync-alt text-green-400", "title": "End-of-Lease Flexibility:", "note": "Return, buy, or lease something new." },
+          { "icon": "fas fa-wallet text-green-400", "title": "Smaller Upfront Costs:", "note": "Often requires less money at signing." }
+        ],
+        "href": "https://www.clarkhyundai.com/financing/application.htm",
+        "button": "Apply For Lease"
+      },
+      "disclaimer": "LEASE OFFERS: Excludes tax, title, & license. The closed end lease offered through Hyundai Motor Finance and subject to credit approval. Well-qualified lessees only. At lease end, lessee responsible for excess wear and mileage at $0.20/mile over 10,000 miles per year. Lessee has option to purchase at lease-end price negotiated at signing. Photo is for illustration purposes only. Offer may not be combined with other special offers unless specified. Dealer price may vary. See participating Hyundai dealer for details and vehicle inventory availability. ALL LEASES 10k MILES/YEAR. $0.20 MILEAGE OVERAGE. PAYMENTS DO NOT INCLUDE DOC FEE OR LICENSE. $3,900 Due at Signing + DRIVE OFF FEE. Effective Tue Feb 03 2026 through Mon Mar 02 2026."
+    },
+    {
+      "id": "purchase-offers",
+      "type": "purchaseGrid",
+      "noPrint": true,
+      "title": "Featured 2025 Purchase Offers",
+      "subtitle": "Prefer to own? Explore our best retail offers featuring combinations of Dealer Discounts, HMF incentives, and Bonus Cash.",
+      "gridClass": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "cards": [
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/727d64ce-5a9c-4b0a-bb81-fa52b8e68a39.jpg",
+          "imgAlt": "2025 Elantra Hybrid Blue",
+          "title": "2025 Elantra Hybrid Blue",
+          "lines": [
+            { "label": "MSRP", "value": "$27,305.00" },
+            { "label": "Dealer Discount", "value": "-$2,584.00", "class": "text-green-600", "valueClass": "text-green-600" },
+            { "label": "HMF Applied", "value": "-$2,500.00", "class": "text-green-600", "valueClass": "text-green-600" }
+          ],
+          "bestPrice": "$22,221.00",
+          "savings": "$5,084.00",
+          "href": "https://www.clarkhyundai.com/new-inventory/index.htm?year=2025-2025&model=Elantra%20Hybrid"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/fefd886e-3677-4d88-bd93-4cbd2d249b3d.jpg",
+          "imgAlt": "2025 Sonata Hybrid SEL",
+          "title": "2025 Sonata Hybrid SEL",
+          "lines": [
+            { "label": "MSRP", "value": "$33,180.00" },
+            { "label": "Dealer Discount", "value": "-$2,800.00", "class": "text-green-600", "valueClass": "text-green-600" },
+            { "label": "HMF Dealer Choice", "value": "-$2,000.00", "class": "text-green-600", "valueClass": "text-green-600" },
+            { "label": "Inventory Coupon", "value": "-$750.00", "class": "text-green-600", "valueClass": "text-green-600" }
+          ],
+          "bestPrice": "$27,630.00",
+          "savings": "$5,550.00",
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Sonata-Hybrid-03c8dc0bac184137139e77c381d1d2b6.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/6be939ec-3e80-44d3-b125-9cc809a1d3c1.jpg",
+          "imgAlt": "2025 Santa Cruz SEL Activity",
+          "title": "2025 Santa Cruz SEL Activity AWD",
+          "lines": [
+            { "label": "MSRP", "value": "$36,880.00" },
+            { "label": "Dealer Discount", "value": "-$3,013.00", "class": "text-green-600", "valueClass": "text-green-600" },
+            { "label": "Retail Bonus Cash", "value": "-$2,250.00", "class": "text-green-600", "valueClass": "text-green-600" }
+          ],
+          "bestPrice": "$31,617.00",
+          "savings": "$5,263.00",
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Santa-Cruz-3cab8ce7ac183bcc1c8b2a5866ad28f4.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/fc6ca090-f2dc-4e76-b931-47415ed82df8.jpg",
+          "imgAlt": "2025 Elantra N",
+          "badges": [{ "text": "Performance", "class": "bg-red-600 text-white" }],
+          "title": "2025 Elantra N",
+          "lines": [
+            { "label": "MSRP", "value": "$36,260.00" },
+            { "label": "Dealer Discount", "value": "-$1,000.00", "class": "text-green-600", "valueClass": "text-green-600" }
+          ],
+          "bestPrice": "$35,260.00",
+          "savings": "$1,000.00",
+          "href": "https://www.clarkhyundai.com/new/Hyundai/2025-Hyundai-Elantra-N-9659916fac1844804ec99d1dc577fd24.htm"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/dac10ef6-20ba-44ed-9beb-c0d45004de00.jpg",
+          "imgAlt": "2025 Elantra Hybrid Limited",
+          "title": "2025 Elantra Hybrid Limited",
+          "lines": [
+            { "label": "MSRP", "value": "$31,655.00" },
+            { "label": "Dealer Discount", "value": "-$2,732.00", "class": "text-green-600", "valueClass": "text-green-600" },
+            { "label": "HMF Applied", "value": "-$2,500.00", "class": "text-green-600", "valueClass": "text-green-600" }
+          ],
+          "bestPrice": "$26,423.00",
+          "savings": "$5,232.00",
+          "href": "https://www.clarkhyundai.com/new-inventory/index.htm?year=2025-2025&model=Elantra%20Hybrid"
+        },
+        {
+          "img": "https://assets.cai-media-management.com/resize/640x640/common-vehicle-media/c23e6dbe-7ecd-4ea4-9075-e3237c3baa59.jpg",
+          "imgAlt": "2025 Elantra Hybrid Limited",
+          "title": "2025 Elantra Hybrid Limited",
+          "lines": [
+            { "label": "MSRP", "value": "$31,725.00" },
+            { "label": "Dealer Discount", "value": "-$2,740.00", "class": "text-green-600", "valueClass": "text-green-600" },
+            { "label": "HMF Applied", "value": "-$2,500.00", "class": "text-green-600", "valueClass": "text-green-600" }
+          ],
+          "bestPrice": "$26,485.00",
+          "savings": "$5,240.00",
+          "href": "https://www.clarkhyundai.com/new-inventory/index.htm?year=2025-2025&model=Elantra%20Hybrid"
+        }
+      ],
+      "disclaimer": "PURCHASE OFFERS: Total discount varies by vehicle and includes combinations of Dealer Discount, Hyundai Motor Finance (HMF) Dealer Choice incentives, Retail Bonus Cash, and Inventory Coupons. HMF Dealer Choice incentive ($2,000-$2,500) requires financing with HMF, is subject to credit approval, and not all customers qualify. Retail Bonus Cash and Inventory Coupons are subject to availability and model eligibility. Price excludes taxes, title, license, and dealer fees."
+    },
     {
       "id": "service-offers",
       "type": "serviceCoupons",
@@ -122,7 +500,7 @@
       "subtitle": "Take advantage of our exclusive offers. Show these coupons on your phone or print them out.",
       "buttons": [
         { "label": "Schedule Service", "href": "https://www.clarkhyundai.com/service/index.htm", "class": "bg-[#002c5f] hover:bg-blue-800 text-white" },
-        { "label": "Print Coupons", "action": "print", "class": "bg-gray-200 hover:bg-gray-300 text-gray-800 border border-gray-300", "icon": "fas fa-print" }
+        { "label": "Print Coupons", "action": "print", "class": "bg-gray-200 hover:bg-gray-300 text-gray-800", "icon": "fas fa-print" }
       ],
       "couponsGridClass": "grid grid-cols-1 md:grid-cols-2 gap-8 mb-20 max-w-5xl mx-auto",
       "coupons": [
@@ -133,13 +511,184 @@
           "finePrint": "*Eligible OEM/OEA/WIN tires only. Dealer installation required. Excludes taxes.",
           "code": "FEB-TIRE-01",
           "expires": "02/28/26"
+        },
+        {
+          "kicker": "Wheel Service",
+          "title": "$149.95 Wheel Alignment",
+          "desc": "Restore your vehicle's alignment to improve handling and extend tire life.",
+          "finePrint": "*Plus tax and shop fees. Specialty suspensions extra.",
+          "code": "FEB-ALGN-22",
+          "expires": "02/28/26"
+        },
+        {
+          "kicker": "Maintenance Special",
+          "title": "$10.00 OFF 5K Service",
+          "desc": "Includes synthetic oil change, filter replacement, and a multi-point inspection.",
+          "finePrint": "*Valid on 5,000-mile interval service. Synthetic oil only.",
+          "code": "FEB-OIL-10",
+          "expires": "02/28/26"
+        },
+        {
+          "kicker": "Interval Maintenance",
+          "title": "15% OFF 30K Service",
+          "desc": "Keep your factory warranty intact and your vehicle running smooth.",
+          "finePrint": "*Maximum discount $100. Valid on full 30,000-mile service.",
+          "code": "FEB-30K-15",
+          "expires": "02/28/26"
+        },
+        {
+          "kicker": "Interval Maintenance",
+          "title": "20% OFF 60K Service",
+          "desc": "Our most comprehensive service interval for long-term reliability.",
+          "finePrint": "*Maximum discount $150. Valid on full 60,000-mile service.",
+          "code": "FEB-60K-20",
+          "expires": "02/28/26"
+        },
+        {
+          "kicker": "Fluid Maintenance",
+          "title": "$25 OFF Coolant Exchange",
+          "desc": "Protect your engine against fluctuating temperatures.",
+          "finePrint": "*Includes drain and refill of engine cooling system.",
+          "code": "FEB-COOL-25",
+          "expires": "02/28/26"
+        },
+        {
+          "cardClass": "bg-emerald-50 border border-emerald-200",
+          "headerClass": "bg-emerald-600 border-b border-emerald-500 text-white",
+          "titleClass": "text-emerald-900",
+          "descClass": "text-emerald-800 font-medium",
+          "finePrintClass": "text-emerald-600",
+          "footerClass": "bg-emerald-900",
+          "footerPrimaryClass": "text-white",
+          "footerSecondaryClass": "text-emerald-300",
+          "kicker": "Electrical Health Check",
+          "title": "FREE Battery Health Test",
+          "desc": "We'll test your cold-cranking amps and charging system for free.",
+          "finePrint": "*Complimentary electronic battery test. No purchase necessary.",
+          "code": "FEB-BATT-00",
+          "expiryLabel": "Always Free"
+        },
+        {
+          "cardClass": "bg-emerald-50 border border-emerald-200",
+          "headerClass": "bg-emerald-600 border-b border-emerald-500 text-white",
+          "titleClass": "text-emerald-900",
+          "footerClass": "bg-emerald-900",
+          "footerPrimaryClass": "text-white",
+          "footerSecondaryClass": "text-emerald-300",
+          "kicker": "Complimentary Service",
+          "title": "Multi-Point Inspection",
+          "list": [
+            "FREE Brake Pad Measurement",
+            "FREE Tire Pressure Adjustment",
+            "FREE Fluid Top-Off"
+          ],
+          "listClass": "text-emerald-800 text-sm font-black",
+          "code": "FEB-MPI-00",
+          "expiryLabel": "Included with Service"
+        }
+      ],
+      "advisorsSubtitle": "Friendly faces. Clear answers. Quality work.",
+      "advisors": [
+        {
+          "name": "Sarah Weed",
+          "role": "Service Manager",
+          "img": "https://pictures.dealer.com/c/clarkhyundaimt/1234/7aa552fc5d5449f28802994a48087731.jpg?impolicy=downsize&w=280&h=280",
+          "scheduleHref": "https://www.clarkhyundai.com/service/index.htm",
+          "phone": "406-309-7003",
+          "tel": "4063097003",
+          "backdropTransform": "rotate-3"
+        },
+        {
+          "name": "Tucker Symmes",
+          "role": "Service Advisor",
+          "img": "https://pictures.dealer.com/c/clarkhyundaimt/1234/821bebaf9a2e4385be68ecd3a7988098.jpg?impolicy=downsize&w=280&h=280",
+          "scheduleHref": "https://www.clarkhyundai.com/service/index.htm",
+          "phone": "406-309-7003",
+          "tel": "4063097003",
+          "backdropTransform": "-rotate-3"
+        },
+        {
+          "name": "Lauren Bell",
+          "role": "Service Advisor",
+          "img": "https://pictures.dealer.com/c/clarkhyundaimt/1234/10a504ade78d465b91aff3ef69c31d99.jpg?impolicy=downsize&w=280&h=280",
+          "scheduleHref": "https://www.clarkhyundai.com/service/index.htm",
+          "phone": "406-309-7003",
+          "tel": "4063097003",
+          "backdropTransform": "rotate-2"
+        }
+      ],
+      "faqPrimaryCta": { "label": "Schedule Online", "href": "https://www.clarkhyundai.com/service/index.htm" },
+      "faqSecondaryCta": { "label": "Call 406-309-7003", "href": "tel:14063097003" },
+      "faq": [
+        {
+          "q": "Do I need an appointment?",
+          "a": "We recommend scheduling online to reserve the best time. Walk-ins are welcome based on availability."
+        },
+        {
+          "q": "How do I redeem an offer?",
+          "a": "Mention the special when you schedule or at write-up. Printing this page also works."
+        },
+        {
+          "q": "Can I combine offers?",
+          "a": "Some offers may not be combined. See each offer’s details. If unsure, call our service team."
+        },
+        {
+          "q": "Which vehicles qualify?",
+          "a": "Offers valid only at Clark Hyundai. Tire promotion applies to eligible Hyundai/Genesis vehicles."
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "I have always been extremely happy with my experience at Clark Hyundai.",
+          "author": "Judy Meseroll",
+          "meta": "Dec 1, 2025 • Carfax Review"
+        },
+        {
+          "quote": "The whole experience was easy and we drove away completely satisfied... We definitely will recommend Clark Hyundai to our friends and family.",
+          "author": "Paul K. (Columbia Falls, MT)",
+          "meta": "Apr 22, 2025 • SureCritic Review"
+        },
+        {
+          "quote": "I am very impressed with Sarah and all the techs I have encountered in many years as a customer at Clark Hyundai!",
+          "author": "2022 Santa Cruz Owner",
+          "meta": "Aug 18, 2025 • Carfax Review"
         }
       ],
       "printFooter": "Printed from the Clark Hyundai Specials Page. 2955 US 93 South, Kalispell, MT 59901 | Service: 406-309-7003",
       "disclaimer": "SERVICE OFFERS: Valid February 1, 2026 – February 28, 2026. Must present coupon at time of write-up. Some offers may not be combined. See dealer for full details."
+    },
+    {
+      "type": "ctaSplit",
+      "noPrint": true,
+      "title": "Ready to Upgrade?<br>Get Started Online.",
+      "cards": [
+        {
+          "href": "https://www.clarkhyundai.com/financing/application.htm",
+          "className": "bg-white/10 rounded-2xl hover:bg-white/20",
+          "iconWrap": "bg-[#002c5f]",
+          "icon": "fas fa-file-invoice-dollar",
+          "iconColor": "text-yellow-400",
+          "title": "Secure Credit Application",
+          "desc": "Pre-qualify for these rates today.",
+          "chevron": true
+        },
+        {
+          "href": "",
+          "className": "border-t border-white/10",
+          "iconWrap": "bg-yellow-400 text-[#002c5f]",
+          "icon": "fas fa-phone-alt",
+          "iconColor": "",
+          "title": "Sales: 406-755-5274",
+          "desc": "Call for current inventory availability.",
+          "chevron": false
+        }
+      ],
+      "image": {
+        "src": "https://pictures.dealer.com/c/clarkhyundaimt/1234/378d5c458e4242acb6e9e7a667ed1f42.jpg",
+        "alt": "Hyundai Fleet"
+      }
     }
   ],
-
   "footer": {
     "masterDisclaimer": [
       "FINANCE OFFERS: 0% APR financing available on select models for well-qualified buyers through Hyundai Motor Finance (HMF). Not all buyers will qualify.",
